@@ -1,0 +1,59 @@
+<!DOCTYPE html>  
+<!-- jUST SHOW --- -->
+<html>
+<head>
+  <title>Shopping Demo</title>
+  <style>
+    /* Add your CSS styles here */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to our Shopping Demo</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Cart</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Featured Products</h2>
+    <form  class="form-group" action="/selling" method="post">
+      <div>
+          <label class="form-label" for="name" >Name:</label>
+          <input class="form-input" type="text" id="name" name="name" pattern="[0-9A-Za-z\s.,·'\\|/~!@#$%^*_+=()\[\]\-]+" title="Only English letters and symbols are allowed" required>
+      </div>
+      <div>
+          <label class="form-label" for="email">Email:</label>
+          <input class="form-input" type="email" id="email" name="email" required>
+      </div>
+      
+      <div>
+        <label class="form-label" for="selling_type">selling Type:</label>
+        <select class="form-input" id="selling_type" name="selling_type" required>
+            <option value="A-class" selected  =  "selected" >A-class</option>
+            <option value="Non-A-class">Non-A-class</option>
+            <option value="Old A-class">Old A-class</option>
+            <!-- <option value="Test">Test</option> -->
+            <option value="Test-A-class">Test-A-class</option>
+        </select>
+    </div>
+      <div class="form-input" style="margin-left: 150px;margin-top: 16px;">
+        <button type="submit" class="btn btn-primary">submit</button>
+        <!-- <a class="btn btn-primary">Check</button> -->
+      </div>
+  </form>
+
+    <!-- Add more product items here -->
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Shopping Demo. All rights reserved.</p>
+  </footer>
+</body>
+</html>

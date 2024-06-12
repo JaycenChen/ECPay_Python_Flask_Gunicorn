@@ -1,0 +1,11 @@
+bind = '0.0.0.0:443'
+# bind = '0.0.0.0:8080'
+workers = 4
+worker_class = 'gthread'
+threads = 8
+timeout = 30
+certfile = './SSL/yoursite/ssl.pem'
+keyfile = './SSL/yoursite/privkey.pem'
+accesslog = './logs/app_access.log'
+errorlog = './logs/app_error.log'
+loglevel = 'info'
