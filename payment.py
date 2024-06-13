@@ -72,7 +72,7 @@ def ecpay(OrderedDict):
         'MerchantTradeDate': datetime.now().strftime("%Y/%m/%d %H:%M:%S"),
         'PaymentType': 'aio',
         'TotalAmount': OrderedDict.get('fee'),
-        'TradeDesc': 'WOCC2024',
+        'TradeDesc': 'W2248',
         'ItemName': OrderedDict.get('name') + ' fee',
         'ReturnURL': host_name + '/receive_result',
         'ChoosePayment': 'Credit',
