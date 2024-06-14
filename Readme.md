@@ -1,4 +1,4 @@
-# Ecpay Flask (綠界支付) 介接
+# Ecpay Python-Flask (綠界支付) 介接
 **For 簡易部署 (gunicorn production部署)： 2024-06-13**
 
 簡單可用的綠界金流(以信用卡為例)串接項目，結構相對完整，可根據需要進行二次開發
